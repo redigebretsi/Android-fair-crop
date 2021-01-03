@@ -14,7 +14,7 @@
             android:name=".BasicActivity"
             android:label="@string/title_activity_basic"
             android:theme="@style/Theme.Faircorp.NoActionBar" />
-               
+
         <activity
             android:name=".WindowActivity"
             android:parentActivityName=".MainActivity" />

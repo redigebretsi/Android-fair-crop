@@ -16,14 +16,6 @@ import kotlinx.coroutines.withContext
 
 class WindowsActivity : BasicActivity(), OnWindowSelectedListener {
 
-    //    override fun onCreate(savedInstanceState: Bundle?) {
-//        super.onCreate(savedInstanceState)
-//        setContentView(R.layout.activity_building_windows)
-//        supportActionBar?.setDisplayHomeAsUpEnabled(true)
-//
-//
-//    }
-
     val windowService = WindowService() // (1)
 
     override fun onCreate(savedInstanceState: Bundle?) {
