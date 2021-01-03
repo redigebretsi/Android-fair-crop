@@ -33,4 +33,5 @@ class WindowActivity : BasicActivity() {
             findViewById<TextView>(R.id.txt_window_status).text = window.status.toString()
         }
     }
+
 }
